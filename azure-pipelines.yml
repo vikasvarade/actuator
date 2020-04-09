@@ -11,6 +11,8 @@ pool:
 
 steps:
 - task: Maven@3
+- task: PublishBuildArtifacts@1
+
   inputs:
     mavenPomFile: 'actuator-demo/pom.xml'
     mavenOptions: '-Xmx3072m'
