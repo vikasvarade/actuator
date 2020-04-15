@@ -54,6 +54,34 @@
     <version>3.0.0-M1</version>
 </dependency>
 				
+		
+		<repository>
+  <id>POC-UST</id>
+  <url>https://pkgs.dev.azure.com/POC-UST/_packaging/POC-UST/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+		<distributionManagement>
+
+			<repository>
+			<id>POC-UST</id>
+  <url>https://pkgs.dev.azure.com/POC-UST/_packaging/POC-UST/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+			</repository>
+			
+			
+</distributionManagement>
+		
+		
 	</dependencies>
 
 	<build>
