@@ -59,16 +59,7 @@
 		
 	</dependencies>
 	
-	<repository>
-  <id>POC-UST-16-04</id>
-  <url>04-10-2020/_packaging/POC-UST-16-04/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+	
 
 	<build>
 		<plugins>
@@ -84,9 +75,20 @@
 		
 		
 	</build>
+<repositories>
+<repository>
+  <id>POC-UST-16-04</id>
+  <url>04-10-2020/_packaging/POC-UST-16-04/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+	</repositories>
 
 </project>
-
 
 
 
